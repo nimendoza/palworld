@@ -1,0 +1,14 @@
+[project]
+name = "palworld-utilities_saves-processor"
+description = "A utility for processing save files in Palworld."
+authors = [{
+    name = "Neomi Mendoza",
+    email = "ncisodev@gmail.com"
+}]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { name = "MIT" }
+dynamic = [ "version" ]
+
+[project.scripts]
+palworld-utilities_saves-processor = "saves-processor.functions:main"
